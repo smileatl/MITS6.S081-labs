@@ -3,6 +3,8 @@
         "fs.h": "c",
         "user.h": "c",
         "types.h": "c",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "riscv.h": "c",
+        "stat.h": "c"
     }
 }
