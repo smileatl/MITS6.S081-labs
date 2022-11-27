@@ -17,6 +17,8 @@ int main(int argc, char const *argv[])
         fprintf(2, "usage: sleep <time>\n");
         exit(1);
     }
+    //命令行参数作为字符串传递，使用atoi将其转换为数字
     sleep(atoi(argv[1]));
+    //0表示成功
     exit(0);
 }
