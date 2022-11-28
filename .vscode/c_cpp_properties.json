@@ -4,8 +4,9 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/kernel/**",
-                "${workspaceFolder}/user/**"
+                "/home/lsl/Desktop/code/MIT6.S081/xv6-labs-2020/kernel",
+                "/home/lsl/Desktop/code/MIT6.S081/xv6-labs-2020/user",
+                "${workspaceFolder}"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
