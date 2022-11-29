@@ -6,7 +6,8 @@
         "cstdlib": "cpp",
         "riscv.h": "c",
         "stat.h": "c",
-        "limits": "c"
+        "limits": "c",
+        "stdio.h": "c"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }

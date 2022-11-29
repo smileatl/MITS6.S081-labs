@@ -6,7 +6,10 @@
                 "${workspaceFolder}/**",
                 "/home/lsl/Desktop/code/MIT6.S081/xv6-labs-2020/kernel",
                 "/home/lsl/Desktop/code/MIT6.S081/xv6-labs-2020/user",
-                "${workspaceFolder}"
+                "${workspaceFolder}",
+                "${default}",
+                "/usr/include/linux",
+                "/usr/include/c++/9/tr1"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

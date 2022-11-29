@@ -1,7 +1,8 @@
-//包含一些类型定义
+//包含一些数据类型定义
 #include "kernel/types.h"
-// user.h提供了许多用户级程序的声明
+// user.h提供了一些系统调用和可用库函数
 #include "user/user.h"
+
 
 // argc标明数组的成员数量，argv字符串参数数组的每个成员都是char*类型
 int main(int argc, char const *argv[])
@@ -19,6 +20,6 @@ int main(int argc, char const *argv[])
     }
     //命令行参数作为字符串传递，使用atoi将其转换为数字
     sleep(atoi(argv[1]));
-    //0表示成功
+    // 0表示成功
     exit(0);
 }
