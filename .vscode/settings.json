@@ -7,7 +7,9 @@
     "riscv.h": "c",
     "stat.h": "c",
     "limits": "c",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "defs.h": "c",
+    "param.h": "c"
   },
   "C_Cpp.errorSquiggles": "enabled",
   "C_Cpp_Runner.msvcBatchPath": "",
