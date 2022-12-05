@@ -26,7 +26,7 @@ void find(char* path, const char* filename)
   // 包括其类型(文件/目录/设备)、长度、文件内容在磁盘上的位置以及指向文件的链接数
     struct stat {
     int dev;     // File system's disk device
-    uint ino;    // Inode number
+    uint ino;    // Inode numsber
     short type;  // Type of file
     short nlink; // Number of links to file
     uint64 size; // Size of file in bytes
@@ -100,7 +100,7 @@ void find(char* path, const char* filename)
       find(buf, filename);
     }
     //如果filename字符串和现在p所指向的字符数组相等
-    //s（如果字符串是d，那剩下13个数都是0）
+    //（如果字符串是d，那剩下13个数都是0）
     else if (strcmp(filename, p) == 0)
       printf("%s\n", buf);
   }
